@@ -1,0 +1,112 @@
+/* .table {
+    --bs-table-bg: #262B40;
+    --bs-table-striped-bg: #2e3650;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #fff;
+    color: #fff;
+    border-color: #373b3e;
+} */
+
+body{
+    overflow-x: hidden;
+}
+
+.react-bootstrap-table {
+    overflow-x: scroll;
+    margin-bottom: 1rem;
+}
+
+.table{
+    text-align: center;
+}
+
+.filter-label{
+    display: unset;
+}
+
+th{
+    min-width: 150px;
+    width: auto;
+}
+
+select#date-filter-comparator-enquiryDate{
+    display: none;
+}
+
+/* .csv-reader-input input{
+    color: #262b40;
+    background-color: #61dafb;
+    border-color: #61dafb;
+    box-shadow: inset 0 1px 0 hsla(0,0%,100%,.15),0 1px 1px rgba(46,54,80,.075);
+}  */
+
+
+select#date-filter-comparator-nextFollow {
+    display: none;
+}
+
+button.react-bs-table-csv-btn.btn.btn-default {
+    border: 2px solid;
+    margin-top: 1rem;
+}
+
+.bg-softr {
+    background-color: #f5f8fb6e !important;
+}
+
+.profile-img {
+    color: #F5F8FB;
+    font-size: 24px;
+    font-weight: bolder;
+    background: #262B40;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+a.mb-3.action-text {
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+select#date-filter-comparator-nextFollowUp {
+    display: none;
+}
+
+.deleted-lead{
+    pointer-events: none;
+    color: rgba(0,0,0,0.6);
+}
+
+
+.alert-message{
+    color: red;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+a.mb-3.action-text {
+    font-size: 18px;
+    font-weight: 500;
+    /* font-style: inherit; */
+
+}
+
+.red{
+    color: #d11a2a;
+}

@@ -1,0 +1,100 @@
+{
+  "name": "crm",
+  "proxy": "http://localhost:5000",
+  "description": "Volt React Dashboard is a free and open source admin dashboard template powered by React.js and Bootstrap 5",
+  "author": "Themesberg",
+  "keywords": [
+    "bootstrap 5",
+    "react",
+    "react dashboard",
+    "react admin template",
+    "free react",
+    "react ui library",
+    "react bootstrap 5",
+    "bootstrap 5 dashboard",
+    "themesberg"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themesberg/volt-react-dashboard"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.3.1",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/lab": "^5.0.0-alpha.112",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@themesberg/react-bootstrap": "^1.4.1",
+    "axios": "^0.26.1",
+    "bootstrap": "5.0.0-beta1",
+    "chart.js": "^3.7.1",
+    "chartist": "^0.11.4",
+    "chartist-plugin-tooltips-updated": "^0.1.4",
+    "googleapis": "^91.0.0",
+    "match-sorter": "^6.3.1",
+    "material-table": "^2.0.3",
+    "moment-timezone": "^0.5.31",
+    "namor": "^2.0.3",
+    "react": "^16.13.1",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-editor": "^1.4.0",
+    "react-bootstrap-table2-filter": "^1.3.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-bootstrap-table2-toolkit": "^2.1.3",
+    "react-chartist": "^0.14.3",
+    "react-chartjs-2": "^4.1.0",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-csv-reader": "^3.4.0",
+    "react-datetime": "^3.0.4",
+    "react-dom": "^16.13.1",
+    "react-github-btn": "^1.2.0",
+    "react-live": "^2.2.3",
+    "react-papaparse": "^3.18.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.3.1",
+    "react-scripts": "3.4.3",
+    "react-select": "^5.3.1",
+    "react-timeago": "^6.2.1",
+    "react-toast-notifications": "^2.5.1",
+    "react-transition-group": "^4.4.1",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.57.0",
+    "simplebar-react": "^2.3.0",
+    "styled-components": "^5.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
